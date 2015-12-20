@@ -1,5 +1,5 @@
 создал репозиторий на гитхабе hh_git1_repoA
-'''
+```
 git clone git@github.com:1gnatov/hh_git1_repoA.git
 gedit fileA.txt
 gedit stufffff.py
@@ -31,9 +31,9 @@ git fetch origin
 git merge origin/branch1 
 git add newest_file.log 
 git commit -m "repoB merged origin/branch1 from repoA"
-'''
+```
 создал репозиторий на гитхабе hh_git1_repoB
-'''
+```
 git remote add artificalorigin git@github.com:1gnatov/hh_git1_repoB.git
 git push --all artificalorigin 
 cd ../hh_git1_repoA/
@@ -43,4 +43,4 @@ git fetch repoB
 git merge repoB/branch1 
 git commit -m "merged repoB/branch1 with resolved conflict"
 git push --all
-'''
+```
