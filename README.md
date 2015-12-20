@@ -1,4 +1,4 @@
-создал репозиторий на гитхабе hh_git1_repoA
+создал репозиторий на гитхабе hh_git1_repoA https://github.com/1gnatov/hh_git1_repoA
 ```
 git clone git@github.com:1gnatov/hh_git1_repoA.git
 gedit fileA.txt
@@ -32,7 +32,7 @@ git merge origin/branch1
 git add newest_file.log 
 git commit -m "repoB merged origin/branch1 from repoA"
 ```
-создал репозиторий на гитхабе hh_git1_repoB
+создал репозиторий на гитхабе hh_git1_repoB https://github.com/1gnatov/hh_git1_repoB
 ```
 git remote add artificalorigin git@github.com:1gnatov/hh_git1_repoB.git
 git push --all artificalorigin 
